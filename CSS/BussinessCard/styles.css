@@ -1,0 +1,80 @@
+body {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.business-card {
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.business-card:hover {
+    transform: translateY(-5px);
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #d8cefe;
+}
+
+.personal-info {
+    margin-left: 30px;
+    text-align: left;
+}
+
+.personal-info h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.personal-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.personal-info h4 {
+    margin: 10px 0;
+    color: #888;
+    font-weight: normal;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 800px) {
+    .business-card {
+        flex-direction: column;
+        width: 75vw;
+        text-align: center;
+    }
+
+    .personal-info {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

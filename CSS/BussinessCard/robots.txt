@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pavankumar2812.github.io/DevFullStack/CSS/BussinessCard/sitemap.xml

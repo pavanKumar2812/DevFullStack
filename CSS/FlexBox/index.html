@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Flexbox</title>
+    <style>
+        .pricing
+        {
+            display: flex;
+        }
+        .individual, .enterprise
+        {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upgrade to Pro</h1>
+    <!-- <div class="pricing">
+        <h3>For inidividuals</h3>
+        <ul>
+            <li>1 GB</li>
+            <li>No Support</li>
+        </ul>
+        <button>Buy Now</button>
+        <h3>For Enterprises</h3>
+        <ul>
+            <li>10 GB</li>
+            <li>24/7 Support</li>
+        </ul>
+        <button>Contact Us</button>
+    </div> -->
+    <div class="pricing">
+        <div class="individual">
+            <h3>For inidividuals</h3>
+            <ul>
+                <li>1 GB</li>
+                <li>No Support</li>
+            </ul>
+            <button>Buy Now</button>
+        </div>
+        <div class="enterprise">
+            <h3>For Enterprises</h3>
+            <ul>
+                <li>10 GB</li>
+                <li>24/7 Support</li>
+            </ul>
+            <button>Contact Us</button>
+        </div>
+    </div>
+</body>
+</html>
