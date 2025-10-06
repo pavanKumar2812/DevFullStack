@@ -12,9 +12,7 @@
         {
             margin: 0;
             padding: 0;
-            background-image: url("images/galaxy.webp");
-            background-size: cover;
-            text-align: center;
+            /* text-align: center; */
             font-family: "Orbitron", sans-serif;
             font-optical-sizing: auto;
             font-weight: 400;
@@ -23,9 +21,16 @@
 
         .hero-section
         {
-            color: white;
-            margin: 10vh 0;
-            
+            background-image: url("images/galaxy.webp");
+            background-size: cover;
+            color: #176aa2;
+            width: 100vw;
+            height: 85vh;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         .btn
@@ -34,6 +39,8 @@
             background-color: white;
             border: none;
             font-family: inherit;
+            color: #176aa2;
+            font-weight: 700;
         }
 
         .underline
@@ -45,6 +52,17 @@
         {
             width: 150px;
         }
+        .title
+        {
+            text-shadow: 0px 0px 4px black;
+        }
+        footer
+        {
+            color: #176aa2;
+            font-weight: 700;
+            font-size: larger;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -53,5 +71,8 @@
         <h1 class="title">Join the <span class="underline">exploration</span></h1>
         <button class="btn">Apply</button>
     </div>
+    <footer>
+        <p>Terms and Conditions apply</p>
+    </footer>
 </body>
 </html>
