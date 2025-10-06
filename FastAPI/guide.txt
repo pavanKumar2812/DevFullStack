@@ -1,0 +1,27 @@
+### FastAPI
+
+FastAPI: FastAPI is a modern, high performance python web framework designed for building APIs quickly and efficiently. 
+         Build on Startlette (for web parts) and Pydantic (for data validation), it's known for simple, easy to use, automatic API documentation generation with Swagger UI and ReDoc.
+
+Unlike Flask and Django, FastAPI is specifically optimized for building APIs with automatic type checking, validation and asynchronous support.
+
+# ------------------
+Features of FastAPI:
+Five most important features that makes FastAPI popular
+    1: High Performance: Build on modern python async features, FastAPI handles thousands of requests per second with ease.
+    2: Type Safety: Python type hints to validate inputs automatically, reducing developer mistakes.
+    3: Automatic Documentation: Generates interactive API docs (/docs and /redoc) without extra work.
+    4: Asynchronous Support: Fully supports async and await, making it great for real-time applications.
+    5: Build-in security: Supports authentication methods like OAuth2, JWT and API keys out of the box.
+
+# ------------------
+API - Application Programming Interface
+
+An API is a set of rules that allows different softwares to communicate with each other. 
+Think of it's a bridge that connects two systems such as a client and a server, and enables then to work together.
+
+Today, over 80% of modern web applications reply on APIs to fetch the data, integrate with third-party services, or enabling features like login, payments, or real-time updates.
+APIs play a curial role in building flexiable, scalable and connected software systems.
+
+=> Why do we need the APIs?
+    APIs helps developers to create software programs more easily. Instead of writing complex code from scratch, they can call the APIs that already provide the functions they need
