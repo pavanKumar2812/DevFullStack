@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url('./railway_station.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.station-container
+{
+    display: inline-block;
+    margin-top: 30vh;
+}
+
+.station-container h1
+{
+    background-color: #f4785a;
+    opacity: 0.7;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url('./railway_station.jpg'); /* Use same or a mobile-optimized image */
+    background-attachment: scroll; /* 'fixed' causes issues on many mobile browsers */
+    min-height: 100vh;
+  }
+}
