@@ -16,6 +16,8 @@
             font-optical-sizing: auto;
             font-weight: 400;
             font-style: normal;
+            text-align: center;
+            background-color: #bcaa96;
         }
         .hero-section
         {
@@ -48,6 +50,117 @@
             object-fit: cover;
             border-radius: 10px;
         }
+        
+        .activity-card
+        {
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .activities-grid
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .activity-card
+        {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #cfbfad;
+        }
+        .card-content
+        {
+            padding: 15px;
+        }
+        .card-content h3
+        {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .card-content p
+        {
+            margin-bottom: 0;
+            color: #555;
+        }
+        #profile-img
+        {
+            width: 200px;
+            height: auto;
+            border-radius: 15px;
+            border: 4px solid #bcaa96;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .guide
+        {
+            background-color: #bcaa96;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .guide-card
+        {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            max-width: 550px;
+            width: 100%;
+            padding: 20px;
+            background-color: #cfbfad;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            border-bottom: 10px solid #854700;
+        }
+        #guide-info h3
+        {
+            margin: 0 0 8px 0;
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #333;
+        }
+        #guide-info p
+        {
+            margin: 0 0 12px 0;
+            font-size: 1.2rem;
+            color: #666;
+        }
+        #guide-info h4
+        {
+            margin: 0;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #444;
+        }
+
+        @media (max-width: 660px)
+        {
+            .guide-card
+            {
+                flex-direction: column;
+                text-align: center;
+                gap: 15px;
+            }
+        }
+
+        footer
+        {
+            background-color: #cfbfad;
+            text-align: center;
+            padding: 15px;
+        }
+
+        footer p 
+        {
+            margin: 0;
+            font-size: 0.9rem;
+        }
     </style>
 </head>
 <body>
@@ -59,10 +172,9 @@
     </section>
 
     <!-- ACTIVITIES SECTION -->
-     <section class="to-do">
-        <div class="container">
-            <h2>Top Things to Do in Rayadurg</h2>
-            
+     <section>
+        <h2>Top Things to Do in Rayadurg</h2>
+        <div class="container"> 
             <div class="activities-grid">
                 <!-- Activity 1: Fort Exploration -->
                 <div class="activity-card">
@@ -91,10 +203,22 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
-    
-
+    <section class="guide">
+        <div class="guide-card">
+            <div id="guide-img" >
+                <img src="./images/profile.png" alt="Pavan Kumar Adinani" id="profile-img">
+            </div>
+            <div id="guide-info">
+                <h3>Your guide</h3>
+                <p>I've lived at Rayadurg for over 20 years, so I can show you all of its best parts and hidden secrets.</p>
+                <h4>Pavan Kumar</h4>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Rayadurg Guide. All rights reserved.</p>
+    </footer>
 </body>
 </html>
