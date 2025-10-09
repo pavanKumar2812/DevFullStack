@@ -27,6 +27,31 @@ body {
     background-color: #f4785a;
     opacity: 0.7;
 }
+
+.btn
+{
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: whitesmoke
+}
+
+#save-btn
+{
+  background-color: #f4785a;
+}
+
+#increment
+{
+  background-color: rgb(89, 188, 89);
+}
+
+#save-el
+{
+  background-color: #f4785a;
+  opacity: 0.7;
+  border-radius: 5px;
+}
+
 @media only screen and (max-width: 768px) {
   body {
     background-image: url('./railway_station.jpg'); /* Use same or a mobile-optimized image */
