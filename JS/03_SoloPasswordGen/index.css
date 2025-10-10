@@ -1,0 +1,122 @@
+body
+{
+    margin: 0 10vw;
+    padding: 0;
+    background-color: #1c2430;
+
+    display: flex;
+    min-height: 100vh;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+
+.container 
+{
+    margin-top: 150px;
+}
+.container h1
+{
+    color: #fbfdff;
+}
+
+.container span
+{
+    color: #52db84;
+}
+
+.title h1
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.container p 
+{
+    color: #b6bfc7;
+    margin-top: 0;
+}
+
+.container button
+{
+    background-color: #52db84;
+    border-radius: 6px;
+    color: #ebf0f5;
+    width: 150px;
+    padding: 10px 10px;
+
+}
+
+.displayPass input 
+{
+    margin: 10px 0;
+    background-color: #2c394d;
+    border-radius: 6px;
+    color: #52db84;
+    padding: 8px 25px;
+}
+
+.line
+{
+    margin: 15px;
+    border-bottom: 1px solid #2c394d;
+}
+
+.userInput
+{
+    color: #b6bfc7;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Mobile devices (600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0 5vw; /* Reduce side margins */
+        font-size: 12px;
+    }
+    
+    .container {
+        margin-top: 50px; /* Reduce top margin */
+    }
+    
+    .title h1 {
+        font-size: 1.2rem; /* Smaller heading */
+    }
+    
+    .container p {
+        font-size: 0.6rem;
+    }
+    
+    .container button {
+        width: 80%; /* Full width button */
+        max-width: 150px;
+        padding: 6px 8px;
+    }
+    
+    .displayPass input {
+        display: flex;
+        width: 80%;
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+}
+
+/* Tablets and larger (601px and up) */
+@media only screen and (min-width: 601px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Desktop (992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        font-size: 20px;
+    }
+}
